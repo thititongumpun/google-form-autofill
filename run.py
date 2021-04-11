@@ -9,7 +9,7 @@ option.add_argument("-incognito")
 
 browser = webdriver.Chrome(executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe', options=option)
 
-browser.get("https://forms.gle/6rqNYeUGwR5FEzRA6")
+brower.get('Some Google Form url Here...')
 time.sleep(2)
 
 q1List = ['//*[@id="i7"]','//*[@id="i10"]']
