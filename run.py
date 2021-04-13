@@ -7,11 +7,9 @@ option.add_argument("-incognito")
 #option.add_argument("--headless") disable GUI
 #option.add_argument("disable-gpu") disable GUI
 
-
-
 def Start():
   browser = webdriver.Chrome(executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe', options=option)
-  browser.get('https://forms.gle/CCa5LYeaVBjNToSa8')
+  browser.get('google form url')
   time.sleep(2)
 
   q1List = ['//*[@id="i7"]','//*[@id="i10"]']
@@ -91,7 +89,6 @@ def Start():
   print('DONE')
 
   browser.close()
-
 
 i = 1
 while True:
